@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonders Of the World</title>
+  <style>
+     h4
+	{
+	 color: black;
+         font-size:50px;
+       }
+ 
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color:skyblue;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: black;
+      text-decoration: underline;
+      font-size: 18px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    #home img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Temples Section */
+    #temples {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #e9ecef;
+    }
+
+    .temple {
+      width: 45%;
+      margin: 20px;
+      text-align: center;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .temple img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .temple h3 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    /* Gallery Section */
+    #gallery {
+      padding: 40px 20px;
+      background-color: lavender;
+    }
+
+    .gallery-category {
+      margin-bottom: 30px;
+    }
+
+    .gallery-category h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .gallery-item {
+      width: 30%;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 80%;
+      height: 200px;
+      border-radius: 10px;
+    }
+
+    /* Blog Section */
+    #blog {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .temple {
+        width: 100%;
+      }
+
+      .gallery-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h4>The Iconic-Seven Wonders</h4>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#temples">Wonders</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <h1>The Seven Wonders of the World: Timeless Marvels of Human Ingenuity</h1>
+  <p>The Seven Wonders of the World showcase humanity's creativity, engineering, and cultural achievements. From the Great Pyramid of Giza, a testament to ancient Egypt’s ingenuity, to the awe-inspiring Taj Mahal symbolizing eternal love, these landmarks captivate the imagination. Each wonder, whether natural or man-made, tells a unique story of history, art, and perseverance, reminding us of the incredible potential of human ambition.</p>
+  <img src="https://static.toiimg.com/photo/62033069.cms" alt="Wonders">
+</section>
+
+<!-- Temples Section -->
+<section id="temples">
+  <h2>Exploring the Legendary Seven Wonders</h2>
+  <center><div class="temple">
+    <img src="https://cdn.britannica.com/82/94382-050-20CF23DB/Great-Wall-of-China-Beijing.jpg?w=1000" alt="Great Wall of China">
+    <h3>Great Wall of China</h3>
+    <p>The Great Wall of China is an ancient architectural marvel that stretches over 13,000 miles across northern China. Originally built to protect Chinese states from invasions, the wall is a symbol of the country’s strength and determination. Constructed over several dynasties, it features watchtowers, fortresses, and steep climbs, showcasing remarkable engineering. Today, it stands as a UNESCO World Heritage site, attracting millions of visitors who marvel at its grandeur and historical significance.</p>
+    <a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/220px-Chichen_Itza_3.jpg" alt="Chichén Itzá">
+    <h3>Chichén Itzá</h3>
+    <p>Chichen Itza, an ancient Mayan city in Mexico's Yucatán Peninsula, was a major cultural hub from the 7th to 10th centuries. Its most iconic structure, the Temple of Kukulcán, creates a serpent illusion during the equinoxes. It is a UNESCO World Heritage Site and one of the New Seven Wonders of the World.</p>
+    <a href="https://en.wikipedia.org/wiki/Chichen_Itza" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/270px-Machu_Picchu%2C_Peru.jpg" alt="Machu Picchu">
+    <h3>Machu Picchu</h3>
+    <p>Machu Picchu is a 15th-century Incan citadel in Peru, known for its stone architecture and stunning views. Abandoned in the 16th century, it was rediscovered in 1911 and is now a UNESCO World Heritage Site and one of the New Seven Wonders of the World.</p>
+    <a href="https://en.wikipedia.org/wiki/Machu_Picchu" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhpbZ67qNPexxaguo85_RiZOZLKNTVmHxWjA&s" alt="Taj Mahal">
+    <h3>Taj Mahal</h3>
+    <p>The Taj Mahal is a white marble mausoleum in Agra, India, built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. Completed in 1653, it is a symbol of love and an architectural masterpiece, blending Persian, Ottoman, and Indian styles. The Taj Mahal is a UNESCO World Heritage Site and one of the New Seven Wonders of the World.</p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  </div>
+</center>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Exploring the Wonders of the World</h2>
+  <div class="gallery-category">
+    <h3>Wonders of the World Gallery</h3>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7WHQj_72HvX17we3UmgUibgvm5-UyNgDGA&s" alt="Colosseum"></div>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKixOATL3ZJWWaHFgz2pSlEtvgqUYSzxGdcA&s" alt="Christ the Redeemer"></div>
+    <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/300px-Kheops-Pyramid.jpg" alt="Great Pyramid of Giza"></div>
+    <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/272px-Peru_Machu_Picchu_Sunrise.jpg" alt="Huayna Picchu"></div>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwfO_ASSIRI2BZ80MDhvsw_z5PgqWyM2cWQ&s" alt="Lighthouse of Alexandria"></div>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhxqYkyvaMfXyQBS-ZWxnZoTk0wOjeRdZqA&s" alt="Mount Everest"></div>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2xjq4orm_BGP4kNLgHsZUFb_rnIur0MVPDA&s" alt="Eiffel Tower"></div>
+    <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ZY_8Rl9rtU1vbtfXHkRu0O87pLM9q8lbaA&s" alt="Victoria Falls"></div>
+    <div class="gallery-item"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhIVFRUXFxcVFRgXFhgVGBcVFRYWFxUVFRUYHSggGBolHRcWITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGzUlHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBAUGB//EAEAQAAEDAgMECQIEBAQGAwAAAAEAAhEDIQQSMQVBUWEGEyJxgZGhwfCx0TJC4fEUUpKiByQzYhUWI0OCwjRy0v/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACQRAAICAQQDAQEAAwAAAAAAAAABAhESAyExQQQTURRhIlJx/9oADAMBAAIRAxEAPwDooTEIyE0L3zzAITQjhKEARwlCOE0IAGEoRQlCQzU2bhaZHaEnmnxeGa0dkA8lQp13DQoqmKcbLmcJ5XZ0KcaqiOuBMtEBCKRiUnGU7e9bbpGWzZ0XRajAc47z9FrYms0LE2ZjWtbEpsXjwd687UhKU26OyLSihdIMQHNgX4rnCFp/xDSVDWYDddWi8FjRhqRy3TKUJiFK9IPtC6bMaIoTQjhKExAQkGo4V3ZjATePdTOWKscY26KT6RGq39k7NY6mMzdd+/1QDZwe7NJgey2aFhC49bXtJI6dPSpts0acAADckaqqseiqBcNG47695VOtUkqOu5U31VSQFrPCsU8RCzWk6qWk5OgNF2PVWvjJCgqOVWoE1EBn1rpKq4pLXEiysQmhTMpkmAtJuxHEfiGnD3XfLUjHlnHGEpcGNCaFoYjZdRt4kcvsqUKozUuCXFrkjhKEcJoVCAhKEcJoSAFKEUJQgYCdFCaEgEmKeEkDBSlPCUIEClCeE6ABhNCOEoTACFc2c3tXlV2hS0qhBlRO2qLg6dnRsAG+FaptWXgaubcSd61CDlmF5c1To7U7JoUNWtCgfWKrVHTvU0MOrVlUqrlK7LH4rqjUqKkBfbWBbEXQBjjcLPFQqzhsSQqEWaTXXkEKIsdwMLUoVg4bks40Sz3CjNdgOaSvZxvTp5MKINlYUi5atmq+As3BV3NHaCevtC+WPnJPUylImNRRYqVwqD9mscSRrrrbW6r1cQQmw+JdNlUYzirQm4vZlnFbCEnI6LTGvqsWrQc0wQQt/rXRdRsxcWMK4a01zuRLSi/4YEJoVzGgF0tEDkq0LsjK1ZzSjToCE0I4ShMQEJoRwlCAAhKEUJQmAEJQjhKEARwnhFCUJADCeEUJAIGCAiAUlFvaE8V0WFwNPUidPRY6usocmkNNyI9h4Y6kGTx4boWy9oAiEGcTZRVK91505OTs60qVFWvSAVSqwlWKtSTqgqUouDKaYzMqUHcFFVwNQXLVvU6zQBxSNYFGQHNimRqFLmWxWLTqFm4x7dGiFpFZbEt0CyvCCpjDuVUlMumGhvuYS1vhY/inJI6WznuAIAgpJ1pCvUNVuOkSW2TsxrJ0RjFsywAO5Vjkg9n5yXPUe0bW/pLWxLDuCqF0XaVA8XQLaOklwZPUDdXdxUWZPCaFskkZOTC60qNyKE0JpJCbb5AhKEcJQnYiOEoRwmhOwAhKEcJQixEcJQjhKEWMCEoRwnayUmwSI4TwrTcG4gncN6moYCXQdFD1YrstacmUWhXqePcEFTBkExpPohNA7rrOThPk0ipRNVmJdAMapPe43JAUFB5De1fzVepiFyOO50JkjxO9Cyi9xj1myVGqDrZWGVmg2cnx0BBWwj27/Iqk6qRvK062MbxWbiqgcZAV6UcnuiJypbAnEu4qFxlOQlC64wjHg5pTb5BhSYelmcBxMIzhnRMKbB1ww6JSnt/juOMN/wDI6WnSaAABonWP/wAX5FJcPqn8OrOP0p5UxCmZVI0QOM3Xam+zlaXRHCYhHCaFVkgQmhHCUIsCOEoRwmhFhQEJ4RQlCdioAhDCkITQiwoAJ4RQnhFhQEJoUkKZlJsXN1MppclRg2VYUtJnhwROYI1QFqhzstQo2cMwButyoavZMyqLXwNTKje4neuf1ts2zSLgqCb3KsMI3QslEHniq9TF7EaznKnUptcdYVYvJ1KTjwQtOUWDnFotMw7Y4+MKPE0WgdmZUTahTF6dTTC4tETmoYUpKEhbxbZhJJAQlCOEoVEkoxJjRA+rIiEMJoUKEUy85UE0pIYSSxHmaVJzBq2UFVwJnRCQsbbXSKjhiG1MxJnSPyiTv4FZtqO7ZW72o14TQsKl0kZVa2pRuxw1dYyHlpEHhHqsfpF0ufRZNN9PMdBAdGgk+foofkwToFoyqztITQuT6AbbxWKFR1YNdSbAZUDcsvvmbaxAEbrfTrytozyVkONOgIUGMxDaTHVHmGtGZx1gDkFZhVtpYU1aVSmHZS9rmzwJETCbe2wktznavTnCASC52ujTIgxJkW+q09h7foYprnUnSW/iaRDhwMbweK8rxGyK4zMDS4t1FMZzwJEc117cThaFR4D6VPK0ARla4gl3/TmxIs0wVxfpkudzoeimdHiOkeHZ+N5bvux3sDwU2C2zh6v+lXpvOsB4zf0m68/xm06d8mI7MCYqRmdDQTxixWezbwa6OtBgggZxBEbyfHzTXlS7QPRievwiayV5DR6RgHtOdeSA0udEOaYJA0IHpzUVbpHT/KSJkDMHb5M35kpvym+hLRS7Pa6WFbq94A7whfheYXiFbbbQ4te9oIsQSAQY0M+GqPC7Ua5hh4zXLiHF24axPDuCn9EyvXE9rbRIuRbzVfF1GsBcTAFyYNvDVeS1tp4gM7PW3uCGEHUEZYbxnju4LMxe1nyQM7AfykFu4AwPAoWuxuCPbGmRIuNfA6J4XhtDatRshjzc7iQbHkrg6R4lo/16gj/c71laLyf4Z+r+ns0JjbVePUelOKe7IMQ45iABmvJIAAIjiunxPSqmA5+IbUpuD3tgtdlJaTAa+MptGh4ol5XxDWjfLOzr42kwS+oxo4ucB4idyko1mvGZjg4cQQR6Ly3H7OxOJJqmk6k03HWuLQ4H8IawjNEXmIkrr+gzqdJhwmdpqjNWIbmjIXBsgkAGLT3hPS8hydMU9LFWjp4ShFCULpsxAhKEUJIsKBITQjhKEWAwSLrQnARikeXmpbj2WsugZHBMphQKSnKP0dS+EjnE6rgukuAYcS99So4hozBpgMAe0TI1c45XcjAtZd8FxPTCSXwIvladZmmRHEXjdvXLrtYpGsE7s4fpBhiMJh6JYBd1SOBcGmB/Xfujcu22fijVoYd8iXU6ZdlsC/IBU035pnuXO9Mvx04BDQ10d/Zn0hbfRtn+VpWgAVN+svcZ9Vyt7UarkxmdIX0Np9t5FFhLHiZBY4TMaCC4O8F1u0ttUqsGjUD2gHtN0JvMSvOOl7R/GVI/M0HxyD7Lb6LbJaMMKpeW1CS5oAkFsZYcN0wTPcrc3hiSlvZS6V48PcwMJGWZLSR2pAI8I9Sus6D7Re7A1sznPdSLwySScvVgtEm+swuD/g3Pp1KlgKZ3zJcTcCOUm66XoS6cJj2jUMafNlXT+lXpOmTJWWNhVC6m5wEZnT35crRJ8z4qntnZnWntEa2PeRYlCyuWYekQ4glxJEXjMfC7YtzW9gwa9NlUAhhBy/7zmIBHEQJnmFhdGnJ5ltPY7sLX6t0TlBtpBE+yn2Ls11XENAAjK50k/wAtjPDUea0/8QazXYtoaZLKYa87i4Akxx1jwVroSyalterdPcazBH9vy6tvYSW5NjNhMY4E3JAFjADjuuNLLK6S7GyAgEGwEf7ibfNy7HGAMqiYzEWmDEA3AO/nyXN7Ve5ziItmaJ7iN51Si22D2PY6Lg1jWZQQ0AXHBUtu4kfw9SGAGBEAfzNsp3i5WV0kMYapb+W3HtCy7JRSi2ZqW55XtGXk5tdZmSLcfNVcXU/DH5T+/otbE0uzUgXM33ADgdbgjwWdXpDq3Hf6b9/l5rkRZqdBqpGOp8w9p/ocfYLZ/wAWqzupoUp7L6jnOvrkbYEbxLp7wFyvR7GupYmm9uUkE/i07QIvHer/AE92kaxwpMf6bycsxm6x1N0TeJpLeMlg0S1vZy+HogzAA8FcwlIlwYRmaYaWnQ5rfrPJQsZlmfNWsHXio072uadL2dNgLrFsZ3+38Q4C1gGgG0wLWF7b+9Pg5DKZbEFoL9xy9om/GS2903SJkOAyzJ0jWCTBOo1KqdJtodXSEAFzgWt0Gmru4fWFkbMrYvpiDPV06pi0mqGXFpgBwK6Hobt812VszIy5SCTm/Fmm/wD46LycuJ3RvtvO9dx/h7ScKOJqE2JpMHe3Mf8A2C3g6dmL32NvbO1alOnUe10ESRr+IODWzysNNxWT0a6ZVn1urxAa5pa6CxsOzDtcYIgH0XMdItvdaclOcjSZO5zpBnunRavQLYvXF2IcSKbJY0aFz3CDfcGh095HAohOa7HKKex3jdtNcCWscQNTa3qs3/nKn1opdTUk1RSmW6lwbMTpK5nENOF2jTo16tSthquUQ55a5vWQGuJZEw4RPCeAXR7R2eG1Kb6bWsYMUWw0RYNrGDHcFS158ti9Ud1R1TROl0xC5LoxjHnG4mm5xMgkd1OoQIGgs9deumE8lZk4pOgbpJ0lZJYBXCdNXEPoawa4m9oLhY/Ny5z/AIGWuy/xWV7hxIcbTFje25dL0kw8vwrCDHWNcSd/VhmnhK4dXUUqSOiMWjJ6aiKVIxfM4eADT7rawbMtKgw/lpUwY45QCsXp7U7NPiJnvcB7Aea6DYlc1KNFxEZmUyeRytsPFYdIvtnCdOKYGL0/KJ/p/ZdZGWkALBlM2g7mCO8CFzXTlwONeLEgAHvyjmV2uDcCxhMQWj+9oIMeH1VPoSOSa/8AyLg1hlxfJAsA1oLi49zY8Qr3QwZdnY2pFzLb6QymD/7nzT7ca0Uq9JjC1rXNIcDbtDtajcDB71jdFHPINPrCaecF9PtAODhrAsfw7+AVRklbYmjsMFh6jWUg2CQynGlzkbmcPHerG1+vbhyZmqRlAEEgm2YzbSb8UbqtRr3ZXRrpEgTAg7rcPus6gyC6SZI1kmL+uqzLOBdgHuxDG1QZc4TJ7RBMuPfErT6FNOesXfh6ppaL/gFUFwvz5lUxUDa5MGza0A3IOR0TzUnQ55q1atHQdVc8f+oyR6q2Qjaw+Oc+sC0CA1zTDcoIh0KntGu0PjVoe1zovIDpIC2KJZSAaJBEiI5RaNdTdYLsKXB75aBqCTrewgXn0Qhs9ewuJZVY2pTcHNeJaR+viPBUdvk9SQBJJjSdxPsvHtmbWrUgcj3ta109l8DtXEjv5b12uzsW19P+J6yo55Z1ZDzIBLmg5RA4W7+K2lrXGiIw3MjaTSGmbSSCTuG7d32WdiacNy+ffee9bG0cSC3KDoCfIWJ+b1gVqlhPNx8dAs0UyahgGZ8MGSHPYXPJcCCWtExbs3nWdVFtxsvo5QIFOpEaf/Kxf118Vq7LYw4SjWa1zsQ01KLQDbtEu7Q0Agi/6rEqYZ9OplqCHQDEg2M3t3JRYPgqYh0mBO7TxT4ZnbFtSB6oK34yB6d6mrxB5CEyT0za9EE9YSezJsSNN5g6a+RXn1XHuqtaXkmCctgIbNgu7q4unXwtZ9J2bMx8aS0upkZXDcV5zTfYBTpmkyVrPNdh0VfGFeLXrie4U2+8Ljc63eh+Lh1Zjpgta+P/AKmD49oeS0lsmRHkwMUO2+NMzo8yvROgOLa7CFgEGnU7XMPdmDvUj/xXm2LrPc4ueZcTfzhdH0D2m9lbqWlobUu6QTpGgnX9UJ0hdlz/ABBg4vDAA5gWkmBcB4gcbR3XXZspOeYIj/rFxB3DLVgg95C5PpmCwdZmaSHNyxYhoLXNDTzjMfBdpRxbHdW9ptUEjmHDNPkVj0bdnMbHEbVqAcKpPdI9JhduvPNk44Nx9dznZTkquuQJDCHubMGLNi1+7UG3pW8Yii2kS6hDs5fMDKSDTaSAS8GLmZEX1C6tPUUYbmMoW2z0CUlzf/NbP5f7v0SR+rS+kYM484ekXZiwFw0JJP1KuYjaD3vpve+erMtBFucxy+izzU70us5+3svDzl9KyYe2aj8Q4FzmgD+Vp9ytHZG1n0GNpgBzWiBmmdZ13eSzA7vSD+8+Kr3TfYZMqbXoPr131nFrc02E2HDRbmG2uW02sLJyta2Q65yjLJtCzC9272T9YbKvfMMmT7Xx5qgAUm2/mcNY5XWNsqjVpPfLRcNggtMFs7pnetKJvKIDiT6IetJqmGTN+vtqlmJAe4RuAvI01teFRqbTBBIHOIk2/b5KzWs4k+n2Tt7pT98is2c1tPCVnVXOax2UuMEQYDt0TpB0W50WoCg9z3CzmFshrgZLmm4cZ3eitgW09CpGsPDlorfkSYrIcRVcSDlLgCY435T3qHEMqFmVo+bldAN/gSDhpPpCXvkFmTsmhUph7atNrg4g3aH6WiIjxVrAsNMVRldFTLEGAA0k2b+XXdwV3Nz/AF80Pn88Ee+QZEFZgLiZMECwtB0MyY0JWZiMM+bNJHeFq1aV7GAkKfP6ofkTCx+jGPdQa6nVp5myXMIINzlDmlp00BnvlZG2alerXdVbShsBrQXtmBv1gLTqEDT3KaSkvIkmGTqjBOGq69V/c3/9KGthq5nsRp+Zn3XSNHGD87kso0AVfql8JsrbIxtbD4Z9JtLO+o50y4CGubl9PHVYrMHXA/0j/U37roB5eBRNP6JLypLoeRzjaOIH/ZP9TfutHY9R9NznVKL7tLYbBNyDrNtPVaGfiUTagQ/Kk+gyMHEsqvc49S5oLiQIFgdBYq1sfGPoOL+pqOMAABo13kk6LVkbk4HyyH5UmqaDIq4/axrACrhahif+5GunZa21rarRwXS2qzL/AJZ2VtoAOkAXMXVdx/f4EJJ+R9kv1Pih5sv/AMdh2l1bqKj6r82a5a0Z9WN07MQLj8qGvtc9UepoNZUce1ZgN5LnAjefdUxPD6fZMSj9UvgZsovq4gmS10m+o+6S0M3NMn+p/wCqJsMm1yJ5pW/ayjoB75a1hc7flGaJ4wLBXKGBruF6eUD+aB5jVY4yfCHVkB+b0iQtFvR+ub5WRukxrvuPZQVdiYj8vUgybF503AQE/VP4GLKoPz9EgPgH3Vt2yKws4MBGvbaBPDtQVSqU3NdlcIPGxEaSC2xUuElygaoZrN1/ohLBpNknVzwN76HdyTjETrHKNfDikKgqbB8COnl4eMfcp30nCNCSJyzpAk5jFoCjZVIMFondF54fAqp9jolAO47uASyOP6JEuJgiB3QpWCN8nwPgnQ8SHqzOqdlPhE+inJfuMcYTurRYulFDwK/UkHd4I30iYOmu/wCynFaNTP1TnEiOPgihYkGXxSNMjcPP6wi65uhHsnEaT67khUQZb7vOUTaJk7x/V73UpaRv9JS+ab556IAhqUd8HujVRkHgfm+FZz8p5wPokDxt4D7oEV+q5fVNkM6HyVwxv+yaoQB9LpUFFIU+LYTGlpACuZh8HuhgTqgdFY0yE5pH4PurLhbXzE+SbLwc30lJoKKraQ4f2/oiNPh9FYMjePr9Eusnd6pCorADj87iiDR48IUueNIT/wATG/6pWBB83/ZJTGsklYGhsXAVabeqrOJgh2VuUXMwc2a4M8Fv02U2wXAg8SQY9SByhcbT2nUaZFRxvy8796hq1y8y5zie+LcNV2+5JbI2zSWx2GN2k1tw9h4EmL7hDZKqP6Q0mt7RYJtvInj+E/AuVq0Gl0ucf6j99U78LTOonxcULyfqJ9hvM2vRJ7ZDxcCL6agktEiRCyNsbRfUfDAG0wYDQBcC4Mxr+qipUabdGgDu14zxUrXgflEcgD+yh+Q2JybKVUmbXtcG4jkT+qna1/4W5r6gWEjWFZZUGuX53CydlWN3P4FlZKQVLDkxm3cRJ1NhbmrZpsHdeTvvrJ4Kq2tbSykNQHUDz+yq0VQLgIMaxbMZJ8Bolh3aCBp3X366oTl4DzP0TjLwH7JgE8kHcOG86aDkoKbDMmY3aaKcRpb6+sqPOL3julIYFVkQd/GAfTVGKTdb+UfN6i6z4TdEMTfd85pCsJwJ3EeUFIU7annb7p/4gHf5EoxieX39UARCmbETPl5qWnVO/wAhv8kxqtM/O5MWDWUv+CDNUd3zgm6zifncocw49959JRs5QECDA5eXy6ID5+gTGflrISZMoGHB/RMY+T8lMybWTuqfI+iKAYQN6QI5eiFxJRgc770UIYnmQk4cC63kiFvn7pNdHEpUMja/5qmc35ARGZ1t3aKMUm8UqEN4eiSfrHcGpJAZ8nh9Ujbd871H1x4hCK/FaUhFgE8Ei/8AawUJrd/luT9YTuPklSGSl48OKWcKu57ufknMax8i6AJmOnfHCf3TuMb/AKx9VBmHAousMRHzcjYCW/GE5AsP081WYJ3+sFH1Xwb/AJZMC04N7rpmtB3+KrCmP3kpjHER8+eCAsvZBx81EX8YHgqufcIPOfNMKp5eZumBcDuQSa/0VTOTuA8U7ST+/qgC0SeI8YSD51g+CrOaePPuRNw+8m53z7IoC1mHyVJJ71TA5qTun3SGWi/j7JCqBwVYh3z9+9Ru4SmBdNUfAnNbmqbABwd7cEPWfPZAF7rPA805dxPzyVWnVkafONtyLPH5kATF3D5w1TdadPllEfD4EJcdDr7IAstrcSkK86T88FWJPEfVOx+tr8UtgLDqx5BRur8/RQVXnh5x6FBTqDS3mEqQi1BN7p1Bl4keYTp0gopMH09ynq2NuP3SSVCQVIX8kTfY+6SSlcjXIgbn5uREJklTAixJuFCz8J8EkkMTJJupHCxTpJCI2blOGC9h8KSSCwGtEm3yEJ0KSSOwHYJmflkDBdJJMREDr3e6dpv4e6dJIGXGlKi8wbnX3KZJWxkjjfzVeme0fD6p0khslG/uCQ3pJKUSwKg7XzmpwEySARDVOveoZv4+wSSQgZYpe6lf7+5TJIH0BNx83JP3JJKWAASSSUWI/9k=" alt="Stonehenge"></div>   
+  </div>
+  	
+    
+
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Read More About Wonders of the world</h2>
+  <h3>Articles</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Wonders_of_the_World">Wonders of the World(Google Search)</a></li>
+    <li><a href="https://world.new7wonders.com/wonders/" target="_blank">The Seven Wonders of the World (Google Search)</a></li>
+  </ul>
+  <h3>YouTube Videos</h3>
+  <iframe src="c:\Users\mrjan\Downloads\Wonders.mp4" title="YouTube video player"></iframe>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="3" required></textarea><br>
+
+            <button type="submit">Submit</button>
+  </form>
+</section>
+
+<script>
+  // Simple JavaScript for smooth scrolling (optional)
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting
+
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Show alert with submitted information
+            alert('Form Submitted!\n\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        });
+
+  
+</script>
+
+</body>
+</html
